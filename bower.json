@@ -1,0 +1,30 @@
+{
+  "name": "mikerockall",
+  "version": "0.0.1",
+  "authors": [
+    "Mike Rockall <mrockall@gmail.com>"
+  ],
+  "description": "Personal Website for Mike Rockall",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://mikerockall.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.0",
+    "hammerjs": "~1.0.10",
+    "imager.js": "~0.2.0",
+    "svg.js": "~1.0.0-rc.6",
+    "underscore": "~1.5.2",
+    "requirejs": "~2.1.11",
+    "requirejs-text": "~2.0.10",
+    "jquery": "~2.1.0",
+    "jquery.scrollTo": "~1.4.11"
+  }
+}
