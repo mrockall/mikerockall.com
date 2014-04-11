@@ -31,7 +31,7 @@ require.config({
       svg: "../components/svg.js/dist/svg",
       hammer: "../components/hammerjs/hammer",
       scroll_to: "../components/jquery.scrollTo/jquery.scrollTo",
-      imager: "../components/imager.js/dist/imager.min",
+      imager: "../components/imager.js/dist/Imager.min",
       backbone_router_callbacks: "libs/backbone-router-callbacks"
     }
 });
