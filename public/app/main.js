@@ -6,6 +6,9 @@ require.config({
       underscore: {
         exports: '_'
       },
+      backbone_router_callbacks: {
+        deps: ['backbone']
+      },
       backbone: {
         deps: [
           'underscore',
@@ -15,9 +18,6 @@ require.config({
       },
       scroll_to: {
         deps: ['jquery']
-      },
-      backbone_router_callbacks: {
-        deps: ['backbone']
       },
       waypoints: {
         deps: ['jquery']

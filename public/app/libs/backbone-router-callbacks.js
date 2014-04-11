@@ -1,3 +1,7 @@
+define([
+  'backbone'
+], function(Backbone){
+
 Backbone.Router.prototype.before = function () {};
 Backbone.Router.prototype.after = function () {};
 
@@ -26,3 +30,5 @@ Backbone.Router.prototype.route = function (route, name, callback) {
   });
   return this;
 };
+
+});

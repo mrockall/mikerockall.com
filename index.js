@@ -12,8 +12,6 @@ app.set('view engine', 'ejs');
 
 // Connect to the database
 var mongo = require('mongodb');
-var monk = require('monk');
-var db = monk('localhost:27017/mikerockall');
 
 // Create a simple Express application
 app.configure(function() {
@@ -28,6 +26,9 @@ app.configure(function() {
     app.use("/libs", express.static(__dirname + '/public/libs'));
     app.use("/components", express.static(__dirname + '/bower_components'));
 });
+
+// Add the FavIcon
+app.use(express.favicon(__dirname + '/public/images/favicon.ico'));
 
 // Route everything through index and let Backbone route them!
 app.get('*', function(req, res){
