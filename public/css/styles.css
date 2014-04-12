@@ -483,14 +483,23 @@ span.strong{
         box-sizing: border-box;
 }
 
+.modal .snake_title{
+  line-height: 44px;
+  background: url(../images/snake-logo.png) left center no-repeat;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 0 0 55px;
+}
+
 .modal .actions{
-  margin-top: 15px;
+  margin-top: 40px;
   text-align: center;
 }
 .modal .actions a{
   display: inline-block;
   padding: 8px 18px;
   margin-right: 5px;
+  margin-bottom: 15px;
   font-size: 16px;
   font-weight: bold;
   color: white;
@@ -503,6 +512,12 @@ span.strong{
 }
 .modal .actions a:hover{
   background: #1B3F2F;
+}
+.modal .actions a.dark{
+  background: #323232;
+}
+.modal .actions a.dark:hover{
+  background: #121212;
 }
 
 .results{
